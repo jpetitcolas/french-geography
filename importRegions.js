@@ -41,9 +41,9 @@ async.waterfall([
             '  `name` varchar(255) NOT NULL,\r\n' +
             '  PRIMARY KEY  (`id`),\r\n' +
             '  UNIQUE KEY `name` (`name`)\r\n' +
-            ') ENGINE=InnoDB  DEFAULT CHARSET=utf-8;\r\n\r\n';
+            ') ENGINE=InnoDB  DEFAULT CHARSET=utf8;\r\n\r\n';
 
-        sql += 'INSERT INTO french_geography_regions (id, name) VALUES\r\n';
+        sql += 'INSERT INTO region (id, name) VALUES\r\n';
         var values = [];
         regions.forEach(function(region) {
            values.push('  (' + region.id + ', "' + region.name + '")');

@@ -3,9 +3,9 @@ CREATE TABLE IF NOT EXISTS `region` (
   `name` varchar(255) NOT NULL,
   PRIMARY KEY  (`id`),
   UNIQUE KEY `name` (`name`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf-8;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
-INSERT INTO french_geography_regions (id, name) VALUES
+INSERT INTO region (id, name) VALUES
   (01, "Guadeloupe"),
   (02, "Martinique"),
   (03, "Guyane"),
