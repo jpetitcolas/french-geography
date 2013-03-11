@@ -1,0 +1,35 @@
+CREATE TABLE IF NOT EXISTS `region` (
+  `id` tinyint(3) unsigned NOT NULL auto_increment,
+  `name` varchar(255) NOT NULL,
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf-8;
+
+INSERT INTO french_geography_regions (id, name) VALUES
+  (01, "Guadeloupe"),
+  (02, "Martinique"),
+  (03, "Guyane"),
+  (04, "La Réunion"),
+  (06, "Mayotte"),
+  (11, "Île-de-France"),
+  (21, "Champagne-Ardenne"),
+  (22, "Picardie"),
+  (23, "Haute-Normandie"),
+  (24, "Centre"),
+  (25, "Basse-Normandie"),
+  (26, "Bourgogne"),
+  (31, "Nord-Pas-de-Calais"),
+  (41, "Lorraine"),
+  (42, "Alsace"),
+  (43, "Franche-Comté"),
+  (52, "Pays de la Loire"),
+  (53, "Bretagne"),
+  (54, "Poitou-Charentes"),
+  (72, "Aquitaine"),
+  (73, "Midi-Pyrénées"),
+  (74, "Limousin"),
+  (82, "Rhône-Alpes"),
+  (83, "Auvergne"),
+  (91, "Languedoc-Roussillon"),
+  (93, "Provence-Alpes-Côte d'Azur"),
+  (94, "Corse");
