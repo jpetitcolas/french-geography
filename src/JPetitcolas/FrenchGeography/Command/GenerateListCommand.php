@@ -14,7 +14,7 @@ use JPetitcolas\FrenchGeography\Formatter\Region\RegionYamlFormatter;
 class GenerateListCommand extends Command
 {
     protected static $availableTypes = array('region', 'department', 'city');
-    protected static $availableFormats = array('yaml');
+    protected static $availableFormats = array('yaml', 'sql');
     protected static $availableSourceFormats = array('insee');
 
     protected function configure()
