@@ -1,5 +1,19 @@
 {
+    "name": "jpetitcolas/french-geography",
+    "type": "library",
+    "description": "A utility to generate list of French regions, departments and cities based on various sources.",
+    "keywords": ["city", "region", "department", "French"],
+    "licence": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Petitcolas",
+            "email": "petitcolas.jonathan+french-geography@gmail.com"
+        }
+    ],
     "require": {
         "symfony/console": "2.2.1"
+    },
+    "autoload": {
+        "psr-0": { "JPetitcolas": "src/"}
     }
 }
