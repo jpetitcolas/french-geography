@@ -30,7 +30,7 @@ class InseeDepartmentParser extends Parser implements ParserInterface
             $department->setRegionId($line[0]);
             $department->setCode($line[1]);
             $department->setChiefTown($line[2]);
-            $department->setName($line[5]);
+            $department->setName(utf8_encode($line[5]));
 
             $departments[] = $department;
         }
