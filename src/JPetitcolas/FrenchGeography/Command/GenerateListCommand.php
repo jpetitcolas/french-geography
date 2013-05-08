@@ -48,7 +48,7 @@ class GenerateListCommand extends Command
         $parserClass .= ucfirst($input->getArgument('sourceFormat')).ucfirst($input->getArgument('type')).'Parser';
 
         $parser = new $parserClass();
-        $parser->setSource('/tmp/reg2012.txt');
+        $parser->setSource($input->getArgument('source'));
         $parsedItems = $parser->parse();
 
         $output->writeln(sprintf('File parsed. Found <info>%d items</info>.', count($parsedItems)));
