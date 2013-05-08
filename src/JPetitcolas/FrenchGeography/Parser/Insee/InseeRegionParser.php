@@ -15,15 +15,24 @@ class InseeRegionParser extends Parser implements ParserInterface
             throw new \Exception('Try to parse with no file set.');
         }
 
+        $firstLine = true;
         $regions = array();
+
         $source = fopen($this->sourcePath, 'r');
         while ($line = fgetcsv($source, 0, "\t")) {
+            // Skip headers
+            if ($firstLine) {
+                $firstLine = false;
+                continue;
+            }
+
             $region = new Region();
             $region->setId($line[0]);
             $region->setName($line[4]);
 
             $regions[] = $region;
         }
+        fclose($source);
 
         return $regions;
     }
