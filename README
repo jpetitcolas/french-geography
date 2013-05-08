@@ -1,7 +1,0 @@
-This repository contains a list of all French regions, departments and cities.
-
-Currently, it supports only SQL format. But feel free to convert it in another ones, like YAML fixtures for Symfony, or anything else.
-
-Main updates will concern cities table: missing cities, orthographic mistakes, etc.
-
-May these files be useful to you! :)
