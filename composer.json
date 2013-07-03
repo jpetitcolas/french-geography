@@ -3,7 +3,7 @@
     "type": "library",
     "description": "A utility to generate list of French regions, departments and cities based on various sources.",
     "keywords": ["city", "region", "department", "French"],
-    "licence": "MIT",
+    "license": "MIT",
     "authors": [
         {
             "name": "Jonathan Petitcolas",
