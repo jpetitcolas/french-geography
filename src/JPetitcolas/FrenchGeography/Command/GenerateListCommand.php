@@ -7,10 +7,6 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Input\InputArgument;
 
-use JPetitcolas\FrenchGeography\Parser\Insee\InseeRegionParser;
-
-use JPetitcolas\FrenchGeography\Formatter\Region\RegionYamlFormatter;
-
 class GenerateListCommand extends Command
 {
     protected static $availableTypes = array('region', 'department', 'city');
