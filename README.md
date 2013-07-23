@@ -1,5 +1,7 @@
 #French geography
 
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/adbfc5f0-6e50-477c-837b-88250e4ab11a/big.png)](https://insight.sensiolabs.com/projects/adbfc5f0-6e50-477c-837b-88250e4ab11a)
+
 This repository provides a full list of regions, departments and especially cities of France in several formats.
 
 If you just want to grab data exports, simply browse the [data folder](https://github.com/jpetitcolas/french-geography/tree/master/data). It currently supports *YAML* and *SQL* formats.
