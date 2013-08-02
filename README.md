@@ -1,6 +1,6 @@
 #French geography
 
-[![SensioLabsInsight](https://insight.sensiolabs.com/projects/adbfc5f0-6e50-477c-837b-88250e4ab11a/big.png)](https://insight.sensiolabs.com/projects/adbfc5f0-6e50-477c-837b-88250e4ab11a)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/a633701d-c418-43b6-ab56-fa010f95ee47/big.png)](https://insight.sensiolabs.com/projects/a633701d-c418-43b6-ab56-fa010f95ee47)
 
 This repository provides a full list of regions, departments and especially cities of France in several formats.
 
