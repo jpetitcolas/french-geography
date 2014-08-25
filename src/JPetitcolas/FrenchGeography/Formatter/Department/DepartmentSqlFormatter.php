@@ -17,7 +17,7 @@ class DepartmentSqlFormatter extends DepartmentFormatter implements FormatterInt
             $sqlRecords[] = $this->generateDataQuery($department);
         }
 
-        $output .= implode(','.PHP_EOL, $sqlRecords).';';
+        $output .= implode(','.PHP_EOL, $sqlRecords).';'.PHP_EOL;
 
         return $output;
     }

@@ -17,7 +17,7 @@ class CitySqlFormatter extends CityFormatter implements FormatterInterface
             $sqlRecords[] = $this->generateDataQuery($city);
         }
 
-        $output .= implode(','.PHP_EOL, $sqlRecords).';';
+        $output .= implode(','.PHP_EOL, $sqlRecords).';'.PHP_EOL;
 
         return $output;
     }

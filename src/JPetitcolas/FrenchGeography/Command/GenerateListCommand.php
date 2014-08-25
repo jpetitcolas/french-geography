@@ -51,7 +51,7 @@ class GenerateListCommand extends Command
 
         /** Formatting **/
 
-        $output->writeln(sprintf('Generating output file in <comment>%s</comment> format.', 'YAML'));
+        $output->writeln(sprintf('Generating output file in <comment>%s</comment> format.', strtoupper($input->getArgument('format'))));
 
         $formatterClassName  = 'JPetitcolas\\FrenchGeography\\Formatter\\'.ucfirst($input->getArgument('type')).'\\';
         $formatterClassName .= ucfirst($input->getArgument('type')).ucfirst($input->getArgument('format')).'Formatter';
