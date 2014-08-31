@@ -1,83 +1,35 @@
-regions:
+CREATE TABLE IF NOT EXISTS `region` (
+  `id` tinyint(3) unsigned NOT NULL auto_increment,
+  `name` varchar(255) NOT NULL,
+  PRIMARY KEY  (`id`),
+  UNIQUE KEY `name` (`name`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
-    region_1:
-        name: "Guadeloupe"
-
-    region_2:
-        name: "Martinique"
-
-    region_3:
-        name: "Guyane"
-
-    region_4:
-        name: "La Réunion"
-
-    region_6:
-        name: "Mayotte"
-
-    region_11:
-        name: "Île-de-France"
-
-    region_21:
-        name: "Champagne-Ardenne"
-
-    region_22:
-        name: "Picardie"
-
-    region_23:
-        name: "Haute-Normandie"
-
-    region_24:
-        name: "Centre"
-
-    region_25:
-        name: "Basse-Normandie"
-
-    region_26:
-        name: "Bourgogne"
-
-    region_31:
-        name: "Nord-Pas-de-Calais"
-
-    region_41:
-        name: "Lorraine"
-
-    region_42:
-        name: "Alsace"
-
-    region_43:
-        name: "Franche-Comté"
-
-    region_52:
-        name: "Pays de la Loire"
-
-    region_53:
-        name: "Bretagne"
-
-    region_54:
-        name: "Poitou-Charentes"
-
-    region_72:
-        name: "Aquitaine"
-
-    region_73:
-        name: "Midi-Pyrénées"
-
-    region_74:
-        name: "Limousin"
-
-    region_82:
-        name: "Rhône-Alpes"
-
-    region_83:
-        name: "Auvergne"
-
-    region_91:
-        name: "Languedoc-Roussillon"
-
-    region_93:
-        name: "Provence-Alpes-Côte d'Azur"
-
-    region_94:
-        name: "Corse"
-
+INSERT INTO `region` VALUES
+(1, "Guadeloupe"),
+(2, "Martinique"),
+(3, "Guyane"),
+(4, "La Réunion"),
+(6, "Mayotte"),
+(11, "Île-de-France"),
+(21, "Champagne-Ardenne"),
+(22, "Picardie"),
+(23, "Haute-Normandie"),
+(24, "Centre"),
+(25, "Basse-Normandie"),
+(26, "Bourgogne"),
+(31, "Nord-Pas-de-Calais"),
+(41, "Lorraine"),
+(42, "Alsace"),
+(43, "Franche-Comté"),
+(52, "Pays de la Loire"),
+(53, "Bretagne"),
+(54, "Poitou-Charentes"),
+(72, "Aquitaine"),
+(73, "Midi-Pyrénées"),
+(74, "Limousin"),
+(82, "Rhône-Alpes"),
+(83, "Auvergne"),
+(91, "Languedoc-Roussillon"),
+(93, "Provence-Alpes-Côte d'Azur"),
+(94, "Corse");
