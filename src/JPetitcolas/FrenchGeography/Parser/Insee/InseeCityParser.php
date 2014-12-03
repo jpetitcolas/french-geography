@@ -27,8 +27,8 @@ class InseeCityParser extends Parser implements ParserInterface
             }
 
             $city = new City();
-            $city->setRegionId($line[3]);
-            $city->setDepartmentCode($line[4]);
+            $city->setRegionId($line[2]);
+            $city->setDepartmentCode($line[3]);
             $city->setName(utf8_encode($line[11]));
             $city->setPrefix(substr($line[10], 1, -1));
 
