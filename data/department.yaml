@@ -1,0 +1,406 @@
+departments:
+
+    department_1:
+        name: "Ain"
+        region_id: 82
+
+    department_2:
+        name: "Aisne"
+        region_id: 22
+
+    department_3:
+        name: "Allier"
+        region_id: 83
+
+    department_4:
+        name: "Alpes-de-Haute-Provence"
+        region_id: 93
+
+    department_5:
+        name: "Hautes-Alpes"
+        region_id: 93
+
+    department_6:
+        name: "Alpes-Maritimes"
+        region_id: 93
+
+    department_7:
+        name: "Ardèche"
+        region_id: 82
+
+    department_8:
+        name: "Ardennes"
+        region_id: 21
+
+    department_9:
+        name: "Ariège"
+        region_id: 73
+
+    department_10:
+        name: "Aube"
+        region_id: 21
+
+    department_11:
+        name: "Aude"
+        region_id: 91
+
+    department_12:
+        name: "Aveyron"
+        region_id: 73
+
+    department_13:
+        name: "Bouches-du-Rhône"
+        region_id: 93
+
+    department_14:
+        name: "Calvados"
+        region_id: 25
+
+    department_15:
+        name: "Cantal"
+        region_id: 83
+
+    department_16:
+        name: "Charente"
+        region_id: 54
+
+    department_17:
+        name: "Charente-Maritime"
+        region_id: 54
+
+    department_18:
+        name: "Cher"
+        region_id: 24
+
+    department_19:
+        name: "Corrèze"
+        region_id: 74
+
+    department_2:
+        name: "Corse-du-Sud"
+        region_id: 94
+
+    department_2:
+        name: "Haute-Corse"
+        region_id: 94
+
+    department_21:
+        name: "Côte-d'Or"
+        region_id: 26
+
+    department_22:
+        name: "Côtes-d'Armor"
+        region_id: 53
+
+    department_23:
+        name: "Creuse"
+        region_id: 74
+
+    department_24:
+        name: "Dordogne"
+        region_id: 72
+
+    department_25:
+        name: "Doubs"
+        region_id: 43
+
+    department_26:
+        name: "Drôme"
+        region_id: 82
+
+    department_27:
+        name: "Eure"
+        region_id: 23
+
+    department_28:
+        name: "Eure-et-Loir"
+        region_id: 24
+
+    department_29:
+        name: "Finistère"
+        region_id: 53
+
+    department_30:
+        name: "Gard"
+        region_id: 91
+
+    department_31:
+        name: "Haute-Garonne"
+        region_id: 73
+
+    department_32:
+        name: "Gers"
+        region_id: 73
+
+    department_33:
+        name: "Gironde"
+        region_id: 72
+
+    department_34:
+        name: "Hérault"
+        region_id: 91
+
+    department_35:
+        name: "Ille-et-Vilaine"
+        region_id: 53
+
+    department_36:
+        name: "Indre"
+        region_id: 24
+
+    department_37:
+        name: "Indre-et-Loire"
+        region_id: 24
+
+    department_38:
+        name: "Isère"
+        region_id: 82
+
+    department_39:
+        name: "Jura"
+        region_id: 43
+
+    department_40:
+        name: "Landes"
+        region_id: 72
+
+    department_41:
+        name: "Loir-et-Cher"
+        region_id: 24
+
+    department_42:
+        name: "Loire"
+        region_id: 82
+
+    department_43:
+        name: "Haute-Loire"
+        region_id: 83
+
+    department_44:
+        name: "Loire-Atlantique"
+        region_id: 52
+
+    department_45:
+        name: "Loiret"
+        region_id: 24
+
+    department_46:
+        name: "Lot"
+        region_id: 73
+
+    department_47:
+        name: "Lot-et-Garonne"
+        region_id: 72
+
+    department_48:
+        name: "Lozère"
+        region_id: 91
+
+    department_49:
+        name: "Maine-et-Loire"
+        region_id: 52
+
+    department_50:
+        name: "Manche"
+        region_id: 25
+
+    department_51:
+        name: "Marne"
+        region_id: 21
+
+    department_52:
+        name: "Haute-Marne"
+        region_id: 21
+
+    department_53:
+        name: "Mayenne"
+        region_id: 52
+
+    department_54:
+        name: "Meurthe-et-Moselle"
+        region_id: 41
+
+    department_55:
+        name: "Meuse"
+        region_id: 41
+
+    department_56:
+        name: "Morbihan"
+        region_id: 53
+
+    department_57:
+        name: "Moselle"
+        region_id: 41
+
+    department_58:
+        name: "Nièvre"
+        region_id: 26
+
+    department_59:
+        name: "Nord"
+        region_id: 31
+
+    department_60:
+        name: "Oise"
+        region_id: 22
+
+    department_61:
+        name: "Orne"
+        region_id: 25
+
+    department_62:
+        name: "Pas-de-Calais"
+        region_id: 31
+
+    department_63:
+        name: "Puy-de-Dôme"
+        region_id: 83
+
+    department_64:
+        name: "Pyrénées-Atlantiques"
+        region_id: 72
+
+    department_65:
+        name: "Hautes-Pyrénées"
+        region_id: 73
+
+    department_66:
+        name: "Pyrénées-Orientales"
+        region_id: 91
+
+    department_67:
+        name: "Bas-Rhin"
+        region_id: 42
+
+    department_68:
+        name: "Haut-Rhin"
+        region_id: 42
+
+    department_69:
+        name: "Rhône"
+        region_id: 82
+
+    department_70:
+        name: "Haute-Saône"
+        region_id: 43
+
+    department_71:
+        name: "Saône-et-Loire"
+        region_id: 26
+
+    department_72:
+        name: "Sarthe"
+        region_id: 52
+
+    department_73:
+        name: "Savoie"
+        region_id: 82
+
+    department_74:
+        name: "Haute-Savoie"
+        region_id: 82
+
+    department_75:
+        name: "Paris"
+        region_id: 11
+
+    department_76:
+        name: "Seine-Maritime"
+        region_id: 23
+
+    department_77:
+        name: "Seine-et-Marne"
+        region_id: 11
+
+    department_78:
+        name: "Yvelines"
+        region_id: 11
+
+    department_79:
+        name: "Deux-Sèvres"
+        region_id: 54
+
+    department_80:
+        name: "Somme"
+        region_id: 22
+
+    department_81:
+        name: "Tarn"
+        region_id: 73
+
+    department_82:
+        name: "Tarn-et-Garonne"
+        region_id: 73
+
+    department_83:
+        name: "Var"
+        region_id: 93
+
+    department_84:
+        name: "Vaucluse"
+        region_id: 93
+
+    department_85:
+        name: "Vendée"
+        region_id: 52
+
+    department_86:
+        name: "Vienne"
+        region_id: 54
+
+    department_87:
+        name: "Haute-Vienne"
+        region_id: 74
+
+    department_88:
+        name: "Vosges"
+        region_id: 41
+
+    department_89:
+        name: "Yonne"
+        region_id: 26
+
+    department_90:
+        name: "Territoire de Belfort"
+        region_id: 43
+
+    department_91:
+        name: "Essonne"
+        region_id: 11
+
+    department_92:
+        name: "Hauts-de-Seine"
+        region_id: 11
+
+    department_93:
+        name: "Seine-Saint-Denis"
+        region_id: 11
+
+    department_94:
+        name: "Val-de-Marne"
+        region_id: 11
+
+    department_95:
+        name: "Val-d'Oise"
+        region_id: 11
+
+    department_971:
+        name: "Guadeloupe"
+        region_id: 1
+
+    department_972:
+        name: "Martinique"
+        region_id: 2
+
+    department_973:
+        name: "Guyane"
+        region_id: 3
+
+    department_974:
+        name: "La Réunion"
+        region_id: 4
+
+    department_976:
+        name: "Mayotte"
+        region_id: 6
+
